@@ -148,7 +148,13 @@ module.exports = {
       inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
       none: "none",
     },
-    container: {},
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem'
+      }
+    },
     cursor: {
       auto: "auto",
       default: "default",

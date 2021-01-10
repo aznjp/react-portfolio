@@ -19,7 +19,7 @@ function About() {
           /> 
         </div>
 
-        <section className="container text-center">
+        <section className="text-center">
           <h2 className="mb-6 text-6xl">About Me</h2>
           <img
             src={profileImage}
