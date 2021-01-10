@@ -14,8 +14,9 @@ function Navigation(props) {
         setCurrentTab
     } = props;
 
-  /* Added in hook to allow for document.title to be visible to user once they click on the set tab */
+  /* Added in hook to allow for the changes to be visible to user once they click on DIFFERENT tabs*/
   useEffect(() => {
+      console.log('Congrats you learned how to switch between the tabs!')
       document.title = currentTab
   }, [currentTab]);
 
