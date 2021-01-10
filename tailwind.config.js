@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
       "header": "url('/src/assets/Starry-Sky.jpg')",
-      "about": "url('/src/assets/Ocean.jpg')"
+      "about": "url('/src/assets/Ocean.jpg')",
+      "portfolio": "url('/src/assets/Portfolio.jpg')"
       }),
     },
     screens: {
