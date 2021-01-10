@@ -33,7 +33,7 @@ function Portfolio () {
           github: "https://github.com/aznjp/budget-tracker",
         },
         {
-          name: "TechBlog",
+          name: "Tech Blog",
           image: TechBlog,
           link: "https://blog-tech-123.herokuapp.com/",
           components: "ORM, Handlebars.js",
