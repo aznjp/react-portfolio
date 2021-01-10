@@ -1,9 +1,5 @@
 import React, {useState} from 'react';
-// import {
-//   BrowserRouter as Router,
-//   Switch,
-//   Route,
-// } from "react-router-dom";
+
 import Header from "./components/Header";
 import Navigation from './components/Navigation';
 import About from "./components/About";
@@ -22,14 +18,17 @@ function App() {
   return (
 
     <div>
-      <Header />
+      <Header>
+        <Navigation
+          tabs = {tabs}
+          currentTab = {currentTab}
+          setCurrentTab = {setCurrentTab}
+        />
+      </Header>
+      
       {/* Utilized these from lesson module to switch amongst the different components and conditionally render them in 
       the div below when selected through each state above*/}
-      <Navigation
-        tabs = {tabs}
-        currentTab = {currentTab}
-        setCurrentTab = {setCurrentTab}
-      />
+
       {/* Conditional Rendering is utilized to switch between the different components based on clicking the button */}
       <div>
         {currentTab === "About Me" ? (
