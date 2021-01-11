@@ -21,7 +21,7 @@ function Navigation(props) {
   return (
       <nav className ="flex flex-wrap items-center justify-center lg:justify-between w-full h-36 text-white text-4xl">
         <div className="flex items-center text-white mr-0">
-          <a className="focus:outline-none text-4xl flex justify-center pl-7"href="/">
+          <a className="focus:outline-none text-4xl flex justify-center pl-7" href="/react-portfolio">
               John Park
           </a>
         </div>
