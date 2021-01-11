@@ -56,7 +56,7 @@ function Portfolio () {
     ]);
     return (
         <main className="bg-portfolio bg-cover p-3 md:p-12">
-        <section className="container mx-auto ">
+        <section className="container mx-auto">
 
           <h2 className="flex justify-center text-white text-5xl m-5">
             My Projects
