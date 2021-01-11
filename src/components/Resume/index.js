@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from './JohnResume.pdf'
+import resume from '../../assets/JohnResume.pdf'
 
 import { DiHtml5, DiDatabase, DiCss3, DiNodejsSmall, DiJsBadge, DiMongodb, DiReact, DiBootstrap } from "react-icons/di";
 
