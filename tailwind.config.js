@@ -9,7 +9,8 @@ module.exports = {
       backgroundImage: (theme) => ({
       "header": "url('/src/assets/Starry-Sky.jpg')",
       "about": "url('/src/assets/Ocean.jpg')",
-      "portfolio": "url('/src/assets/Portfolio.jpg')"
+      "portfolio": "url('/src/assets/Portfolio.jpg')",
+      "resume": "url('/src/assets/Resume.jpg')"
       }),
     },
     screens: {
