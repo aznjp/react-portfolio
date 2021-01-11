@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 
-import "../../App.css";
 import "../../index.css";
 
 function Navigation(props) {
@@ -26,8 +25,6 @@ function Navigation(props) {
               John Park
           </a>
         </div>
-
-
 
         <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block">
           <ul className = "flex justify-center lg:justify-end flex-1 items-center text-lg xl:text-2xl">
