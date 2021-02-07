@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 import Dainty from "../../assets/project-images/dainty.png";
 import ParkTravelApp from "../../assets/project-images/PTA.png";
-import BudgetTracker from "../../assets/project-images/BT.png";
+import CreativeSquare from "../../assets/project-images/BT.png"
 import TechBlog from "../../assets/project-images/TB.PNG";
 import QuizApp from "../../assets/project-images/QA.png";
 import OldPortfolio from "../../assets/project-images/OP.png";
@@ -26,11 +26,11 @@ function Portfolio () {
           github: "https://github.com/aznjp/park-travel-app",
         },
         {
-          name: "Budget Tracker",
-          image: BudgetTracker,
-          link: "https://budget-update.herokuapp.com/",
-          components: "MongoDB, PWA's, IndexedDB ",
-          github: "https://github.com/aznjp/budget-tracker",
+          name: "Creative Square",
+          image: CreativeSquare,
+          link: "http://creative-square.herokuapp.com/",
+          components: "MongoDB, MERN Stack",
+          github: "https://github.com/Napo-100/creative-square",
         },
         {
           name: "Tech Blog",
